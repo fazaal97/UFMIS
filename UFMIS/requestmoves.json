@@ -1,0 +1,7 @@
+{"request_moves":
+[
+{"date":"2018-01-31","qunatity":"3","cost":"600.0","roomnumber":"001A","floorNumber":"f01","assetType":"Mel Desk"},
+{"date":"2018-01-31","qunatity":"2","cost":"300.0","roomnumber":"001A","floorNumber":"f01","assetType":"Mel Bookcase"},
+{"date":"2018-01-31","qunatity":"10","cost":"3000.0","roomnumber":"001A","floorNumber":"f01","assetType":"Pine Bookcase"}
+]
+}

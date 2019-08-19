@@ -1,0 +1,45 @@
+{
+"assets":
+    [
+        {
+            "Name":"Mel Desk",
+            "Quantity":"",
+            "Cost":"200"
+        },
+        {
+            "Name":"Mel Bookcase",
+            "Quantity":"",
+            "Cost":"150"
+        },
+        {
+            "Name":"Metal Filing Cab.",
+            "Quantity":"",
+            "Cost":"150"
+        },
+        {
+            "Name":"Gas-lift Chair",
+            "Quantity":"",
+            "Cost":"100"
+        },
+        {
+            "Name":"Pine Desk",
+            "Quantity":"",
+            "Cost":"400"
+        },
+        {
+            "Name":"Pine Bookcase",
+            "Quantity":"",
+            "Cost":"300"
+        },
+        {
+            "Name":"Pine Filing Cab",
+            "Quantity":"",
+            "Cost":"200"
+        },
+        {
+            "Name":"Fixed Frame Chair",
+            "Quantity":"",
+            "Cost":"300"
+        }
+    ]
+}

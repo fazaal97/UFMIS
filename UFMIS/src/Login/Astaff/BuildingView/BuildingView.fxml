@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="1000.0" stylesheets="@buildingview.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Astaff.BuildingView.BuildingViewController">
+   <children>
+      <AnchorPane fx:id="rootAnchorPane">
+         <children>
+            <BorderPane prefHeight="455.0" prefWidth="665.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <top>
+                  <MenuBar BorderPane.alignment="CENTER" />
+               </top>
+               <center>
+                  <AnchorPane BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXTabPane fx:id="mainTabPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <tabs>
+                              <Tab fx:id="bookIssueTab" text="Building Floor Plan View">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <VBox prefHeight="412.0" prefWidth="557.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <HBox fx:id="book_info" alignment="CENTER" prefHeight="800.0" prefWidth="800.0">
+                                                   <VBox.margin>
+                                                      <Insets />
+                                                   </VBox.margin>
+                                                   <children>
+                                                      <SplitMenuButton mnemonicParsing="false" prefHeight="31.0" prefWidth="375.0" text="Select the Floor">
+                                                        <items>
+                                                          <MenuItem mnemonicParsing="false" onAction="#loadFloor1" text="Floor 1" />
+                                                          <MenuItem mnemonicParsing="false" onAction="#loadFloor2" text="Floor 2" />
+                                                            <MenuItem mnemonicParsing="false" onAction="#loadFloor3" text="Floor 3" />
+                                                            <MenuItem mnemonicParsing="false" onAction="#loadFloor4" text="Floor 4" />
+                                                        </items>
+                                                         <font>
+                                                            <Font size="21.0" />
+                                                         </font>
+                                                      </SplitMenuButton>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="member_info" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="800.0" prefWidth="800.0">
+                                                   <VBox.margin>
+                                                      <Insets />
+                                                   </VBox.margin>
+                                                </HBox>
+                                                <HBox alignment="CENTER" prefHeight="800.0" prefWidth="800.0">
+                                                   <VBox.margin>
+                                                      <Insets />
+                                                   </VBox.margin>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>
+                           </tabs>
+                        </JFXTabPane>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
